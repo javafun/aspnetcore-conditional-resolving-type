@@ -29,7 +29,7 @@ using var host = Host.CreateDefaultBuilder(args)
 var s = host.Services.GetService<Test>();
 s.DoWork();
 Console.WriteLine("Hello, World!");
-await host.RunAsync();
+//await host.RunAsync();
 
 interface IPaymentGateway
 {
